@@ -1,0 +1,89 @@
+body {
+  background-color: #121212;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.container {
+  max-width: 640px;
+  margin: 40px auto;
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2c2c2c;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+#anunciar {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#anunciar:hover {
+  background-color: #45a049;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.produto-info {
+  background-color: #1e1e1e;
+  border: 1px solid #2c2c2c;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 32px;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.produto-info p {
+  margin: 12px 0;
+  font-size: 16px;
+}
+
+.produto-info strong {
+  color: #4caf50;
+  font-weight: 600;
+}
